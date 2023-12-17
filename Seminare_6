@@ -1,4 +1,7 @@
-Import java.util.Objects;
+import java.util.Objects;
+import java.util.HashMap; 
+import java.util.Map; 
+
 public class Employee extends Object {
 Private String name;
 Private String lastname;
@@ -69,5 +72,6 @@ this.age = 25;
 this salary = 1000;
 
 public String toString() {
-return Employee (Name)
+return "Employee (name, age, salary)";
+}
 
